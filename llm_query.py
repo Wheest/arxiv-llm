@@ -44,8 +44,11 @@ def print_answer(question):
             return_only_outputs=False,
         )["output_text"]
     )
+    print()
 
 
 print_answer("what is the most interesting thing in these papers?")
 
 print_answer("what is the most interesting impactful paper here and why?")
+
+print_answer("Summarize the top 5 points from these papers")
