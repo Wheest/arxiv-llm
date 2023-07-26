@@ -49,3 +49,4 @@ Things that need to be improved:
 - There is not a way right now to select the LLM that is being used
 - It would be good if we could save the semantic embedding of the papers to disk, which would reduce inference time
 - Right now it only reads LaTeX but many papers are just PDF.  Should use pandoc or something to cover the PDF case
+- Use the [langchain arxiv document loader](https://python.langchain.com/docs/integrations/providers/arxiv)
