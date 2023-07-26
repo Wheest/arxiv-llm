@@ -47,5 +47,5 @@ Things that need to be improved:
 - the LaTeX file copier does not currently account for the source being across several files.  [This code from my thesis-o-meter](https://github.com/Wheest/thesis-o-meter/blob/main/tex_file_processor.py) could help deal with this case
 - The questions being asked are not very deep
 - There is not a way right now to select the LLM that is being used
-- It would be good if we could save the semantic embeddings of the papers to disk, which would reduce inference time
+- It would be good if we could save the semantic embedding of the papers to disk, which would reduce inference time
 - Right now it only reads LaTeX but many papers are just PDF.  Should use pandoc or something to cover the PDF case
